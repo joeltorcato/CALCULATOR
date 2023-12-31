@@ -52,10 +52,5 @@ form .display input{
 
 /*form*/
 form input.equal{
-    width: 150px;
-}
-
-/*operator*/
-form input.operator{
-    color: #33ffd8;
+    width: 145px;
 }
