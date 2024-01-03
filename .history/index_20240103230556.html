@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CALCULATOR | JOEL TORCATO</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="display">
+                    <input type="text" name="display">
+                </div>
+                <div class="button-row">
+                    <input type="button" value="AC" onclick="clearDisplay()" class="operator"> 
+                    <input type="button" value="DE" onclick="deleteLastDigit()" class="operator"> 
+                    <input type="button" value="." onclick="dispaly.value('.' )" class="operator"> 
+                    <input type="button" value="/" onclick="dispaly.value('/')" class="operator"> 
+                </div>
+                <div class="button-row">
+                    <input type="button" value="7" onclick="dispaly.value('7')"> 
+                    <input type="button" value="8" onclick="dispaly.value('8')"> 
+                    <input type="button" value="9" onclick="dispaly.value('9')"> 
+                    <input type="button" value="*" onclick="dispaly.value('*')" class="operator"> 
+                </div>
+                <div class="button-row">
+                    <input type="button" value="4" onclick="dispaly.value('4')"> 
+                    <input type="button" value="5" onclick="dispaly.value('5')"> 
+                    <input type="button" value="6" onclick="dispaly.value('6')"> 
+                    <input type="button" value="-" onclick="dispaly.value('-')" class="operator"> 
+                </div>
+                <div class="button-row">
+                    <input type="button" value="1" onclick="dispaly.value('1')"> 
+                    <input type="button" value="2" onclick="dispaly.value('2')"> 
+                    <input type="button" value="3" onclick="dispaly.value('3')"> 
+                    <input type="button" value="+" onclick="dispaly.value('+' )" class="operator"> 
+                </div>
+                <div class="button-row">
+                    <input type="button" value="00" onclick="dispaly.value('00')"> 
+                    <input type="button" value="0" onclick="dispaly.value('0')"> 
+                    <input type="button" value="=" onclick="calculateResult()" class="equal operator" > 
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
